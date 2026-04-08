@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "lint": "eslint fundamentos/**/*.js",
+    "test": "node --check fundamentos/**/*.js",
+    "validate": "npm run lint && npm test"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "name": "javascript-joseassis",
+  "version": "1.0.0",
+  "description": "Repositório usado para estudo da lógica de programação com JavaScript",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanRozas13/Javascript-joseAssis.git"
+  },
+  "keywords": ["javascript", "logica-programacao", "estudo"],
+  "author": "Juan Rozas",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JuanRozas13/Javascript-joseAssis/issues"
+  },
+  "homepage": "https://github.com/JuanRozas13/Javascript-joseAssis#readme"
+}
