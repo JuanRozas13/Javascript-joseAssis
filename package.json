@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "lint": "eslint fundamentos/**/*.js",
-    "test": "node --check fundamentos/**/*.js",
+    "lint": "eslint \"fundamentos/**/*.js\"",
+    "test": "find fundamentos -name '*.js' -exec node --check {} +",
     "validate": "npm run lint && npm test"
   },
   "devDependencies": {
