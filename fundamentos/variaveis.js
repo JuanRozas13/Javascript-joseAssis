@@ -34,13 +34,20 @@ let altura = 1.83
 console.log(altura)
 console.log(typeof(altura))
 
-console.log('____________________________')
+
+let vip = true
+console.log(vip)
+console.log(typeof(vip))
+
+
+console.log('----------------------------')
 console.log(' -     Ficha do aluno     - ')
-console.log('____________________________')
+console.log('----------------------------')
 
 // alinha abaixo concatena (uniao) um texto com o conteudo da variavel nome e mostra no console
 console.log(`Nome: ${nome}`)
 console.log(`Idade: ${idade}`)
-console.log(`Peso: ${peso}`)
-console.log(`Altura: ${altura}`)
-
+console.log(`Peso: ${peso}kg`)
+console.log(`Altura: ${altura}m`)
+console.log(`Vip: ${vip}`)
+console.log('-----------------------------')
