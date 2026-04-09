@@ -21,3 +21,10 @@ Memória
 Entrada --> Processamento --> Saída
 
 ```
+
+## Operadores Aritméticos
+| Operador | Propósito | Exemplo | Resulado |
+|----------|-----------|---------|----------|
+| = | Atribuir um valor | x = 10 | x = 10 |
+| + | Somar | 10 + 5 | 15 |
+| += | somar e atribuir | x += 5 | x = 15 |
