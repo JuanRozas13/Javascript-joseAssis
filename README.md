@@ -16,5 +16,6 @@ Variáveis são espaços na memória do computador usado para guardar valores qu
 - number ( números inteiros e não inteiros )
 - boolean ( Verdadeiro ou falso )
 ```mermaid
+graph UR
 
 ```
