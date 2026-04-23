@@ -3,40 +3,32 @@
  * @author [Juan Rozas]
  */
 
+const prompt = require('prompt-sync')()
+const colors = require('colors')
+
 console.clear()
-console.log('Estudo das variáveis em JavaScript')
+console.log('Ficha do aluno'.italic)
 console.log('') 
 
 // a linha a baixo mostra uma string no console 
 console.log('String')
 
 // a linha a baixo cria uma variavel do tipo string e mostra seu tipo no console
-let nome = 'Juan'
-console.log(nome)
-console.log(typeof(nome))
-
-console.log('')
-
-console.log('variavel do tipo Number')
-let idade = 20
-console.log(idade)
-console.log(typeof(idade))
-
-console.log('')
-
-let peso = 75.5
-console.log(peso)
-console.log(typeof(peso))
-
-console.log('')
-
-let altura = 1.83
-console.log(altura)
-console.log(typeof(altura))
-
-
+let nome = prompt('Digite seu nome:')
+let idade = Number(prompt('Digite sua idade: '))
+let peso = Number(prompt('Digite seu peso: '))
+let altura = Number(prompt('Digite a sua altura: '))
 let vip = true
-console.log(vip)
+
+// tipos prtimitivos: string, number, boolean
+console.log(typeof(nome))
+console.log('')
+console.log(typeof(idade))
+console.log('')
+console.log(typeof(peso))
+console.log('')
+console.log(typeof(altura))
+console.log('')
 console.log(typeof(vip))
 
 
