@@ -131,3 +131,11 @@ switch (valor) {
       break
 }
 ```
+
+
+### Laços de repetições
+```javascript
+    for (let i = 1; i < 10; i++) {
+    // o código é repetição enquanto a condição for verdadeira
+}
+```
